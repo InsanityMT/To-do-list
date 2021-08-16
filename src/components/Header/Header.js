@@ -2,7 +2,7 @@ import './Header.css';
 function Header() {
     return (
         <div className="header">
-            <span>Список задач</span>
+            <span>Task List</span>
         </div>
     );
 }

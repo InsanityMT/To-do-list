@@ -1,8 +1,9 @@
 import './AddField.css';
 function AddField() {
     return (
-        <div className="AddField">
-            <input type="text" placeholder="Введите текст задачи..."></input>
+        <div className="addField">
+            <input type="text" placeholder="Enter the text of the task...."></input>
+            <button>+</button>
         </div>
     );
 }
