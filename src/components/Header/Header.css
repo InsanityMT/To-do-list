@@ -1,0 +1,10 @@
+.header {
+    background: linear-gradient(to top left, powderblue, pink);
+    font-size: 35px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+span {
+    margin-left: 30px;
+    color: white;
+}
