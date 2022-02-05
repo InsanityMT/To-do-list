@@ -1,9 +1,16 @@
+
+@font-face {
+    font-family: "segoe-wp-semilight";
+    src: url("../../fonts/Segoe WP SemiLight.ttf");
+}
+
+
 .addField {
     width: 100%;
     height: 65px;
     display: flex;
 }
-input {
+.addField input {
     width: 80%;
     height: 25px;
     position: relative;
@@ -11,8 +18,9 @@ input {
     outline: none;
     border: none;
     padding: 20px;
+    font-family: segoe-wp-semilight;
 }
-button {
+.addField button {
     outline: none;
     border: none;
     font-size: 30px;

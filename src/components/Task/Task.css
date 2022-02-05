@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: "segoe-wp-semilight";
+    src: url("../../fonts/Segoe WP SemiLight.ttf");
+}
+
+@font-face {
+    font-family: "segoe-wp-light";
+    src: url("../../fonts/Segoe WP Light.ttf");
+}
+
+.task {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    height: 50px;
+    border-top: 2px solid aliceblue;
+}
+.task span {
+    padding: 5px;
+    margin-left: 15px;
+    color: gray;
+    font-size: 24px;
+    vertical-align: center;
+    font-family: segoe-wp-light;
+}
+
+input {
+    align-self: center;
+}
